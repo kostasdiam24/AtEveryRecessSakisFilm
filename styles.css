@@ -290,3 +290,8 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 1.5rem; }
 /* ---- laurel ---- */
 .laurel { color: color-mix(in oklch, var(--foreground) 70%, transparent); }
 .laurel.won { color: var(--accent); }
+
+
+.me {
+  color: white;
+}
