@@ -101,7 +101,7 @@ ul { list-style: none; }
 }
 @media (min-width: 1024px) { .hero-content { padding: 8rem 2.5rem 5rem; } }
 .hero-title {
-  font-family: var(--font-display);
+  font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   font-size: clamp(3rem, 9vw, 8.5rem);
   line-height: .95;
@@ -177,7 +177,7 @@ h2.title-lg {
   margin-top: .75rem;
 }
 .lede {
-  font-family: var(--font-display);
+  font-family: Arial, Helvetica, sans-serif;
   font-size: clamp(1.75rem, 3.5vw, 3rem);
   line-height: 1.2;
   text-wrap: balance;
@@ -245,7 +245,7 @@ h2.title-lg {
 .dl-grid dt { color: var(--muted-foreground); }
 .dl-grid dd { font-family: var(--font-display); font-size: 1.25rem; margin-top: .5rem; }
 
-.crew-list { font-family: var(--font-display); font-size: 1.5rem; }
+.crew-list { font-family: Arial, Helvetica, sans-serif; font-size: 1.5rem; }
 .crew-list li + li { margin-top: .25rem; }
 
 /* ---- gallery ---- */
@@ -260,7 +260,7 @@ h2.title-lg {
   max-width: 64rem; margin: 0 auto; text-align: center;
 }
 .pull-quote {
-  font-family: var(--font-display); font-style: italic;
+  font-family: sans-serif; font-style: italic;
   font-size: clamp(1.875rem, 5vw, 4rem); line-height: 1.15;
   text-wrap: balance;
 }
@@ -271,7 +271,7 @@ h2.title-lg {
 .contact-items { display: grid; gap: 2rem; align-self: end; }
 @media (min-width: 640px) { .contact-items { grid-template-columns: repeat(2, 1fr); } }
 .contact-item { display: block; border-top: 1px solid var(--border); padding-top: 1rem; }
-.contact-item-value { font-family: var(--font-display); font-size: 1.5rem; margin-top: .5rem; transition: color .2s; }
+.contact-item-value { font-family: Arial, Helvetica, sans-serif; font-size: 1.5rem; margin-top: .5rem; transition: color .2s; }
 .contact-item:hover .contact-item-value { color: var(--accent); }
 
 /* ---- footer ---- */
@@ -296,8 +296,6 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 1.5rem; }
   color: white;
 }
 
-.gotoimdb {
-  margin-top: 50px;
-  padding: 20px;
-  border: 1px solid white;
+.seeimdb {
+  color: white;
 }
